@@ -1,0 +1,19 @@
+from trading_platform import TradingPlatform
+
+class IBKR_REST(TradingPlatform):
+    def __init__(self) -> None:
+        ...
+        
+    def connect():
+        ...
+    def terminate_connection():
+        ...
+    def get_portfolio():
+        ...
+    def get_min_order():
+        ...
+
+    def place_market_order():
+        ...
+
+    
